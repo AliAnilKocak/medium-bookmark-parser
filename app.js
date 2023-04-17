@@ -24,4 +24,4 @@ const html = getTemplate(`
   `).join('')}
 `);
 
-fileUtil.saveHTML(html, '.', 'bookmarks.html');
+fileUtil.saveHTML(html, '.', 'index.html');

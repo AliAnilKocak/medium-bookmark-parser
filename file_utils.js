@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require("path");
 
 function saveHTML(html) {
-    fs.writeFile('bookmarks.html', html, {encoding: 'utf-8'}, err => {
+    fs.writeFile('index.html', html, {encoding: 'utf-8'}, err => {
         if (err) {
             console.error('Error saving HTML file')
         } else {
